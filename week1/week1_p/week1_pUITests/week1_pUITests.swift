@@ -1,13 +1,13 @@
 //
-//  week1_personalUITests.swift
-//  week1_personalUITests
+//  week1_pUITests.swift
+//  week1_pUITests
 //
 //  Created by 유철민 on 2023/09/27.
 //
 
 import XCTest
 
-final class week1_personalUITests: XCTestCase {
+final class week1_pUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

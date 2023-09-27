@@ -1,13 +1,13 @@
 //
-//  week1_personalUITestsLaunchTests.swift
-//  week1_personalUITests
+//  week1_pUITestsLaunchTests.swift
+//  week1_pUITests
 //
 //  Created by 유철민 on 2023/09/27.
 //
 
 import XCTest
 
-final class week1_personalUITestsLaunchTests: XCTestCase {
+final class week1_pUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
