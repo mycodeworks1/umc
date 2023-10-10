@@ -18,39 +18,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeY-g2-DtU">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="175"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-nW-oiJ">
-                                        <rect key="frame" x="29" y="77" width="0.0" height="0.0"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <searchBar contentMode="redraw" placeholder="찾는 맛집 이름이 뭐예요?" translatesAutoresizingMaskIntoConstraints="NO" id="oTK-w5-fJv">
-                                        <rect key="frame" x="10" y="98" width="373" height="56"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="BYZ-38-t0r" id="7Ql-cn-AiE"/>
-                                        </connections>
-                                    </searchBar>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemMintColor"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <constraints>
-                                    <constraint firstItem="oTK-w5-fJv" firstAttribute="leading" secondItem="zeY-g2-DtU" secondAttribute="leading" constant="10" id="QxS-pN-VAK"/>
-                                    <constraint firstAttribute="trailing" secondItem="oTK-w5-fJv" secondAttribute="trailing" constant="10" id="qpy-cp-9E2"/>
+                                    <constraint firstAttribute="height" constant="150" id="3za-EI-i58"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1NA-Rc-Ime">
+                                <rect key="frame" x="0.0" y="702" width="393" height="150"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="E5X-pF-c7R"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1r-BD-20c">
+                                <rect key="frame" x="0.0" y="363.66666666666669" width="393" height="150.00000000000006"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7O7-66-2Yc"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1NA-Rc-Ime" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4bC-cR-HFj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zeY-g2-DtU" secondAttribute="trailing" id="4ft-gj-YtY"/>
                             <constraint firstItem="zeY-g2-DtU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="81l-eJ-4fR"/>
-                            <constraint firstItem="oTK-w5-fJv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="Nh9-K1-5vB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E1r-BD-20c" secondAttribute="trailing" id="QQ2-WD-JXc"/>
+                            <constraint firstAttribute="trailing" secondItem="1NA-Rc-Ime" secondAttribute="trailing" id="Voa-W4-Avm"/>
+                            <constraint firstItem="E1r-BD-20c" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="coO-9A-HBI"/>
                             <constraint firstItem="zeY-g2-DtU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ddf-gj-19h"/>
-                            <constraint firstItem="zeY-g2-DtU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.205399" id="j2g-Q4-IqC"/>
+                            <constraint firstItem="E1r-BD-20c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pCE-aa-Pou"/>
+                            <constraint firstAttribute="bottom" secondItem="1NA-Rc-Ime" secondAttribute="bottom" id="yPh-WJ-BmG"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -66,8 +67,14 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
