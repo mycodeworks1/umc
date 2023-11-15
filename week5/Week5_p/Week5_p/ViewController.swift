@@ -1,0 +1,26 @@
+//
+//  ViewController.swift
+//  Week5_p
+//
+//  Created by 유철민 on 2023/11/15.
+//
+
+import UIKit
+
+class firstViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
+class secondViewController: UIViewController{
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+}
