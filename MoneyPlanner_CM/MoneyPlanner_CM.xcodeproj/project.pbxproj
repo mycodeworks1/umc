@@ -11,7 +11,23 @@
 		7A610A302B447B4F00D3096F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A2F2B447B4F00D3096F /* SceneDelegate.swift */; };
 		7A610A322B447B4F00D3096F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A312B447B4F00D3096F /* ViewController.swift */; };
 		7A610A372B447B5100D3096F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A610A362B447B5100D3096F /* Assets.xcassets */; };
-		7A610A3A2B447B5100D3096F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A610A382B447B5100D3096F /* LaunchScreen.storyboard */; };
+		7A610A462B4483E200D3096F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A452B4483E200D3096F /* CalendarViewController.swift */; };
+		7A610A492B46378700D3096F /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7A610A482B46378700D3096F /* CombineMoya */; };
+		7A610A4B2B46378700D3096F /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7A610A4A2B46378700D3096F /* Moya */; };
+		7A610A4D2B46378700D3096F /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7A610A4C2B46378700D3096F /* ReactiveMoya */; };
+		7A610A4F2B46378700D3096F /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7A610A4E2B46378700D3096F /* RxMoya */; };
+		7A610A512B4637ED00D3096F /* CalendarDailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A502B4637ED00D3096F /* CalendarDailyView.swift */; };
+		7A610A532B46381F00D3096F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A522B46381F00D3096F /* SettingsViewController.swift */; };
+		7A610A572B46393000D3096F /* SettingsProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A562B46393000D3096F /* SettingsProfileViewController.swift */; };
+		7A610A592B46396500D3096F /* SettingsPersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A582B46396500D3096F /* SettingsPersonalInformationViewController.swift */; };
+		7A610A5B2B46399100D3096F /* SettingsInquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A5A2B46399100D3096F /* SettingsInquiryViewController.swift */; };
+		7A610A5F2B463D1900D3096F /* MainChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A5E2B463D1900D3096F /* MainChallengeViewController.swift */; };
+		7A610A612B463F0C00D3096F /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A602B463F0C00D3096F /* Goal.swift */; };
+		7A610A632B463F5400D3096F /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A622B463F5400D3096F /* Usage.swift */; };
+		7A610A652B46402500D3096F /* GoalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A642B46402500D3096F /* GoalAPI.swift */; };
+		7A610A672B46407E00D3096F /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A662B46407E00D3096F /* GoalViewModel.swift */; };
+		7A610A692B46408C00D3096F /* UsageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A682B46408C00D3096F /* UsageViewModel.swift */; };
+		7A610A6B2B46409E00D3096F /* UsageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A610A6A2B46409E00D3096F /* UsageAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +36,20 @@
 		7A610A2F2B447B4F00D3096F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A610A312B447B4F00D3096F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A610A362B447B5100D3096F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A610A392B447B5100D3096F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A610A3B2B447B5100D3096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A610A452B4483E200D3096F /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		7A610A502B4637ED00D3096F /* CalendarDailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDailyView.swift; sourceTree = "<group>"; };
+		7A610A522B46381F00D3096F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7A610A562B46393000D3096F /* SettingsProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileViewController.swift; sourceTree = "<group>"; };
+		7A610A582B46396500D3096F /* SettingsPersonalInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPersonalInformationViewController.swift; sourceTree = "<group>"; };
+		7A610A5A2B46399100D3096F /* SettingsInquiryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInquiryViewController.swift; sourceTree = "<group>"; };
+		7A610A5E2B463D1900D3096F /* MainChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChallengeViewController.swift; sourceTree = "<group>"; };
+		7A610A602B463F0C00D3096F /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		7A610A622B463F5400D3096F /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
+		7A610A642B46402500D3096F /* GoalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalAPI.swift; sourceTree = "<group>"; };
+		7A610A662B46407E00D3096F /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		7A610A682B46408C00D3096F /* UsageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageViewModel.swift; sourceTree = "<group>"; };
+		7A610A6A2B46409E00D3096F /* UsageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A610A4B2B46378700D3096F /* Moya in Frameworks */,
+				7A610A492B46378700D3096F /* CombineMoya in Frameworks */,
+				7A610A4F2B46378700D3096F /* RxMoya in Frameworks */,
+				7A610A4D2B46378700D3096F /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +88,80 @@
 			children = (
 				7A610A2D2B447B4F00D3096F /* AppDelegate.swift */,
 				7A610A2F2B447B4F00D3096F /* SceneDelegate.swift */,
-				7A610A312B447B4F00D3096F /* ViewController.swift */,
+				7A610A422B4482E600D3096F /* Network */,
+				7A610A432B4482EE00D3096F /* Model */,
+				7A610A5D2B463C0400D3096F /* ViewModel */,
+				7A610A412B4482DF00D3096F /* View */,
 				7A610A362B447B5100D3096F /* Assets.xcassets */,
-				7A610A382B447B5100D3096F /* LaunchScreen.storyboard */,
 				7A610A3B2B447B5100D3096F /* Info.plist */,
 			);
 			path = MoneyPlanner_CM;
+			sourceTree = "<group>";
+		};
+		7A610A412B4482DF00D3096F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A5C2B4639AB00D3096F /* Calendar */,
+				7A610A552B46383C00D3096F /* Challenge */,
+				7A610A542B46382E00D3096F /* Settings */,
+				7A610A312B447B4F00D3096F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A610A422B4482E600D3096F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A642B46402500D3096F /* GoalAPI.swift */,
+				7A610A6A2B46409E00D3096F /* UsageAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7A610A432B4482EE00D3096F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A602B463F0C00D3096F /* Goal.swift */,
+				7A610A622B463F5400D3096F /* Usage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A610A542B46382E00D3096F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A522B46381F00D3096F /* SettingsViewController.swift */,
+				7A610A562B46393000D3096F /* SettingsProfileViewController.swift */,
+				7A610A582B46396500D3096F /* SettingsPersonalInformationViewController.swift */,
+				7A610A5A2B46399100D3096F /* SettingsInquiryViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7A610A552B46383C00D3096F /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A5E2B463D1900D3096F /* MainChallengeViewController.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		7A610A5C2B4639AB00D3096F /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A452B4483E200D3096F /* CalendarViewController.swift */,
+				7A610A502B4637ED00D3096F /* CalendarDailyView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		7A610A5D2B463C0400D3096F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A610A662B46407E00D3096F /* GoalViewModel.swift */,
+				7A610A682B46408C00D3096F /* UsageViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +180,12 @@
 			dependencies = (
 			);
 			name = MoneyPlanner_CM;
+			packageProductDependencies = (
+				7A610A482B46378700D3096F /* CombineMoya */,
+				7A610A4A2B46378700D3096F /* Moya */,
+				7A610A4C2B46378700D3096F /* ReactiveMoya */,
+				7A610A4E2B46378700D3096F /* RxMoya */,
+			);
 			productName = MoneyPlanner_CM;
 			productReference = 7A610A2A2B447B4F00D3096F /* MoneyPlanner_CM.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 7A610A212B447B4F00D3096F;
+			packageReferences = (
+				7A610A472B46378600D3096F /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 7A610A2B2B447B4F00D3096F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A610A3A2B447B5100D3096F /* LaunchScreen.storyboard in Resources */,
 				7A610A372B447B5100D3096F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,24 +242,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A610A462B4483E200D3096F /* CalendarViewController.swift in Sources */,
 				7A610A322B447B4F00D3096F /* ViewController.swift in Sources */,
+				7A610A5B2B46399100D3096F /* SettingsInquiryViewController.swift in Sources */,
+				7A610A5F2B463D1900D3096F /* MainChallengeViewController.swift in Sources */,
 				7A610A2E2B447B4F00D3096F /* AppDelegate.swift in Sources */,
+				7A610A652B46402500D3096F /* GoalAPI.swift in Sources */,
+				7A610A512B4637ED00D3096F /* CalendarDailyView.swift in Sources */,
+				7A610A692B46408C00D3096F /* UsageViewModel.swift in Sources */,
+				7A610A6B2B46409E00D3096F /* UsageAPI.swift in Sources */,
+				7A610A672B46407E00D3096F /* GoalViewModel.swift in Sources */,
+				7A610A612B463F0C00D3096F /* Goal.swift in Sources */,
+				7A610A592B46396500D3096F /* SettingsPersonalInformationViewController.swift in Sources */,
+				7A610A572B46393000D3096F /* SettingsProfileViewController.swift in Sources */,
 				7A610A302B447B4F00D3096F /* SceneDelegate.swift in Sources */,
+				7A610A532B46381F00D3096F /* SettingsViewController.swift in Sources */,
+				7A610A632B463F5400D3096F /* Usage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7A610A382B447B5100D3096F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A610A392B447B5100D3096F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7A610A3C2B447B5100D3096F /* Debug */ = {
@@ -351,6 +461,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A610A472B46378600D3096F /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A610A482B46378700D3096F /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A610A472B46378600D3096F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		7A610A4A2B46378700D3096F /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A610A472B46378600D3096F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		7A610A4C2B46378700D3096F /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A610A472B46378600D3096F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		7A610A4E2B46378700D3096F /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A610A472B46378600D3096F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A610A222B447B4F00D3096F /* Project object */;
 }
